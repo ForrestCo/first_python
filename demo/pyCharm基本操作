@@ -1,0 +1,27 @@
+注释：
+    单行注释用 ‘#’ 快捷键： Ctrl+/;
+    多行注释使用 ：'''我是注释''' 或 """我是注释"""
+    创建文件文件时自动创建文件头注释：
+    File->settings->Editor->File and Code Templates->Python Script
+    #!/usr/bin/env python
+    # -*- coding: utf-8 -*-
+    # @File  : ${NAME}.py    -----文件名
+    # @Author: 杨崇          -----作者
+    # @Date  : ${DATE}       -----时间
+    # @Desc  :              -----描述
+
+
+ 常用快捷键：
+     修改文件名：Shift + F6
+
+
+ 变量的数据类型：
+    数字类型（number）：整数类型（int）
+                      小数类型（float）
+
+    布尔类型（bool）
+
+    字符串类型(str)
+
+    Python里面定义变量不需要指定变量类型，根据赋的值来推断变量类型
+    通过 type() 来判断变量类型

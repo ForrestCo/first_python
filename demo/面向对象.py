@@ -43,11 +43,9 @@ class User:
         print("您输入的用户名为：", self.username)
         print("您输入的密码为：", self.password)
 
-
-#
-# user = User("admin", "123")
-# user.user_info()
-# user.main()
+user = User("admin", "123")
+user.user_info()
+user.main()
 
 
 """

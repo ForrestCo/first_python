@@ -132,7 +132,41 @@ print(str[0: 3])
 print(str[3: 5])
 print(str[3:])
 print(str[:3])
+# 步长
+print(str[:2])
+print(str[::2])
+
+
+str = 'python'
+# 截取从 2 ~ 5 位置 的字符串
+print(str[1: 5])
+
+# 截取从 2 ~ 末尾 的字符串
+print(str[1:])
+
+# 截取从 开始 ~ 5 位置 的字符串
+print(str[:5])
+
+# 截取完整的字符串
+print(str[:])
+
+# 从开始位置，每隔一个字符截取字符串
+print(str[::2])
+
+# 从索引 1 开始，每隔一个取一个
 print(str[1::2])
+
+# 截取从 2 ~ 末尾 - 1 的字符串
+print(str[1: -1])
+
+# 截取字符串末尾两个字符
+print(str[-2:])
+
+# 字符串的逆序（面试题）
+print(str[::-1])
+
+
+
 
 
 
